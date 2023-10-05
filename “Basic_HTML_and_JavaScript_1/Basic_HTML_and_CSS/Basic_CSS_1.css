@@ -1,4 +1,6 @@
-p {
-  color:red;
-  text-align:left;
+p,h1,h2,article {
+  color:black;
+  text-align:justify;
+  width: 300px; 
   }
+  
