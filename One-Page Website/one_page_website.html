@@ -3,46 +3,18 @@
   <head>
      <meta charset="utf-8">
 	 <title>Motorcycles</title>
+	 <link rel="stylesheet" href="./CSS/one_page_website.css">
+     <link rel="stylesheet" href="./CSS/anima.css">
   </head>
-   <style>
-     .navigation {
-      display: flex;
-      justify-content:center;
-      background-color: 
-      padding: 10px;
-	  
-    }
-	
-     .navigation a {
-      text-decoration: none;
-      color: #333;
-      padding: 8px 16px;
-      border-radius: 5px;
-      background-color: #ddd;
-      transition: background-color 0.3s;
-    }
-     .navigation a:hover {
-      background-color: #bbb;
-    }
-     img {
-	 border-radius:8px;
-	 }
-	 *{
-	 color:blue;
-	 text-align:center;
-	 }
-	 
-  </style> 
-  </head>
-	<body> 
-     <!--NAV-->
-     <div>
-        <div>
-           <ul>
-             <div class="navigation">
-			 <a href="#home">HOME</a>&nbsp;
-             <a href="#gallery">GALLERY</a>&nbsp;
-             <a href="#contact">ORDERS</a>
+  <body> 
+     
+	<!--NAV-->
+     <div class="wrap">
+        <div class="menu-container">
+           <ul class="menu">
+			 <a href="#home"><li>Home</li></a>
+             <a href="#gallery"><li>GALLERY</li></a>
+             <a href="#contact"><li>Contact</li></a>
 			 </div>
            </ul>
        </div>
@@ -51,26 +23,26 @@
  
      <!--HOME-->
 	 <div id="home">
-	    <div>
-		   <div>
-		     <h1> Road Motorbikes</h1>
+	    <div class="container">
+		   <div class="text-center">
+		     <span class="head-main"> Road Motorbikes</span>
 	       </div>
         </div>
      </div>
      <!-- END HOME-->
 
      <!--GALLERY-->	 
-	 <section>
-	      <div id="gallery">
-		    <h1>Gallery</h1>
-			<div>
+	 <section id="gallery">
+	      <div class="container">
+		     <h1>Gallery</h1>
+			<div class="flex-container">
 			 
 			 <!--PHOTO-CONTAINER 1-->
 			 
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike1.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -79,10 +51,10 @@
              <!--END PHOTO-CONTAINER 1-->
 			 
 			 <!--PHOTO-CONTAINER 2-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike2.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -91,10 +63,10 @@
              <!--END PHOTO-CONTAINER 2-->
 			 
 			 <!--PHOTO-CONTAINER 3-->
-			 <div> 
-			    <div>
+			 <div class="photo-container" > 
+			    <div class="photo">
 				   <img src=".\bike_image\bike3.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -103,10 +75,10 @@
              <!--END PHOTO-CONTAINER 3-->
 			 
 			 <!--PHOTO-CONTAINER 4-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike4.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -115,10 +87,10 @@
              <!--END PHOTO-CONTAINER 4-->
 			 
 			 <!--PHOTO-CONTAINER 5-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike5.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -127,10 +99,10 @@
              <!--END PHOTO-CONTAINER 5-->
 			 
 			 <!--PHOTO-CONTAINER 6-->
-			 <div> 
-			    <div>
+			 <div class="photo-container" > 
+			    <div class="photo">
 				   <img src=".\bike_image\bike6.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -139,10 +111,10 @@
              <!--END PHOTO-CONTAINER 6-->
 			 
 			 <!--PHOTO-CONTAINER 7-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike7.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -151,10 +123,10 @@
              <!--END PHOTO-CONTAINER 7-->
 			 
 			 <!--PHOTO-CONTAINER 8-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike8.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -163,10 +135,10 @@
              <!--END PHOTO-CONTAINER 8-->
 			 
 			 <!--PHOTO-CONTAINER 9-->
-			 <div> 
-			    <div>
+			 <div class="photo-container"> 
+			    <div class="photo">
 				   <img src=".\bike_image\bike9.jpg" alt="Motobike image">
-				   <div>
+				   <div class="photo-overlay">
 				      <h3>Click to Enlarge</h3>
 					  <p>Drive test is available!
 				   </div>
@@ -179,18 +151,16 @@
 	 <!--END GALLERY-->
 	 
 	 <!--RSVP-->
-	 <section>
-	     <div id="contact">
-		    <div> 
-			   <h1>Orders</h1>
-			   <div>
-			      <h2>
-				      <br/>Place  your order here!
-				  </h2>	
-                  <p>
-                    Please provide us with your basic contact information.
-                  </p>
-                  <div>	
+	 <section id="contact">
+		<div class="container">
+		  <div class="heading-padding">
+		     <h1 class="heading-padding"> Orders</h1>
+			   <div class="orders">
+			        <h2>
+				      <span> Place  your order here!</span>
+				      </br>Please provide us with your basic contact information.
+					</h2>	
+                   <div class="form-rsvp">	
                      <form action="" method="post">
                        <input class="rsvp" type="text" value="First name">					 
 		               <input class="rsvp" type="text" value="Last Name">
@@ -199,8 +169,8 @@
 					   <div class="form-spacer">  
 						 <label class="terms">Terms and Conditions</label>
 					   </div> 
-					   <div>
-					     <input type="Submit" value="Submit">
+					<div class="submit">
+					     <input type="submit" value="Submit">
 					   </div> 
                      </form>					   
 				  </div>
@@ -211,7 +181,7 @@
      <!--END RSVP-->
 
      <!--FOOTER-->
-     <div>
+     <div id="footer">
        www.themotocenter.speed	&nbsp;|&nbsp; &copy; 2019
      </div>
      <!--END FOOTER-->
